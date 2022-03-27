@@ -1,22 +1,22 @@
 import React from "react";
 import "./sidebar.scss";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Sidebar = ({ isopen }) => {
 	return (
 		<div className={isopen ? "sidebar-container active" : "sidebar-container"}>
 			<ul className="sidebar-items" onClick={isopen}>
 				<li className="sidebar-link">
-					<Link to="/">Home</Link>
+					<NavLink to="/">Home</NavLink>
 				</li>
 				<li className="sidebar-link">
-					<Link to="about">About</Link>
+					<NavLink to="about">About</NavLink>
 				</li>
 				<li className="sidebar-link">
-					<Link to="service">Service</Link>
+					<NavLink to="service">Service</NavLink>
 				</li>
 				<li className="sidebar-link">
-					<Link to="contact">Contact</Link>
+					<NavLink to="contact">Contact</NavLink>
 				</li>
 			</ul>
 		</div>
