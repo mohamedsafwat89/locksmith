@@ -1,0 +1,12 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Encode sans Expanded", sans-serif;
+	scroll-behavior: smooth;
+	scroll-snap-align: start;
+	scrollbar-width: none; // firefox
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}

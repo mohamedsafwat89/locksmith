@@ -1,0 +1,74 @@
+.service-container {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: 1fr;
+	height: 100vh;
+	width: 100vw;
+	padding: 0 120px;
+	margin: auto;
+	@media screen and (max-width: 1100px){
+		height: auto;
+	}
+	.service-header {
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		grid-template-columns: 1fr;
+		text-align: center;
+		/* margin-top: 20px; */
+		.service-title {
+			color: #fff;
+			align-self: center;
+			@media screen and (max-width: 1100px){
+				font-size: 24px;
+			}
+		}
+		.service-sub {
+			color: #fff;
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 50px;
+			@media screen and (max-width: 1100px){
+				font-size: 16px;
+				margin-bottom: 40px;
+			}
+		}
+	}
+	.service-card-container {
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		grid-template-columns: 1fr 1fr;
+		gap: 2rem;
+		height: 100%;
+		@media screen and (max-width: 1100px) {
+			grid-template-columns: 1fr;
+			height: auto;
+			gap: 1rem;
+
+		}
+	}
+
+	.service-btn-holder {
+		width: 100%;
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.service-btn {
+			font-size: 16px;
+			padding: 15px;
+			margin: 20px 30px;
+			text-decoration: none;
+			text-align: center;
+			color: black;
+			&:active {
+				color: #fff;
+			}
+			&:hover{
+				color: #fff;
+			}
+		}
+	}
+}

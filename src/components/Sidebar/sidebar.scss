@@ -1,0 +1,43 @@
+@import "../../global.scss";
+.sidebar-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: $darkColor;
+	position: absolute;
+	transform: translateY(-100%);
+	transition: all 1s ease-in-out;
+	@media screen and (max-width: 1100px) {
+		display: grid;
+		position: fixed;
+		transition: all 0.3s ease-in-out;
+		z-index: 100;
+	}
+	&.active {
+		transform: translateY(50px);
+		transition: all 0.3s ease-in-out;
+	}
+	.sidebar-items {
+		display: grid;
+		.sidebar-link {
+			list-style: none;
+			margin-bottom: 50px;
+			a {
+				color: #fff;
+				text-decoration: none;
+				padding: 5px;
+				font-size: 30px;
+				transition: all 0.2s ease-in-out;
+				&:hover {
+					color: $mainColor;
+					transition: all 0.2s ease-in-out;
+				}
+				&:active {
+					color: $mainColor;
+				}
+			}
+		}
+	}
+}

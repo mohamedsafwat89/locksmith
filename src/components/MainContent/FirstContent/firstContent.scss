@@ -1,0 +1,62 @@
+@import "../../../global.scss";
+
+.first-content-container {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 3rem;
+	height: 100vh;
+	width: 100vw;
+	padding: 20px 120px;
+	/* position: relative; */
+	overflow: hidden;
+	@media screen and (max-width: 1100px) {
+		grid-template-columns: 1fr;
+		height: auto;
+		gap: 2rem;
+		padding: 0 50px;
+	}
+	.first-content {
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		grid-template-columns: 1fr;
+		@media screen and (max-width: 1100px) {
+			order: 1;
+		}
+		.first-title {
+			color: #fff;
+			align-self: center;
+			margin-bottom: 35px;
+			@media screen and (max-width: 1100px) {
+				font-size: 30px;
+			}
+		}
+		.first-desc {
+			color: #fff;
+			line-height: 30px;
+			font-size: 20px;
+			align-self: center;
+			width: 90%;
+			@media screen and (max-width: 1100px) {
+				font-size: 20px;
+				margin-bottom: 20px;
+			}
+		}
+	}
+	.first-content-img-holder {
+		width: 100%;
+		height: 100%;
+		@media screen and (max-width: 1100px) {
+			height: 500px;
+			order: 2;
+		}
+		.first-img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			-o-object-fit: cover;
+		}
+	}
+}

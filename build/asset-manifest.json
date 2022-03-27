@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f3142e0.css",
+    "main.js": "/static/js/main.942ba748.js",
+    "static/media/Pexels Videos 2070044.mp4": "/static/media/Pexels Videos 2070044.ee2385351537bdaf386f.mp4",
+    "static/media/driver.jpg": "/static/media/driver.8484425cd168bd0e6969.jpg",
+    "static/media/car-lock.jpg": "/static/media/car-lock.b98e659d52627025cd19.jpg",
+    "static/media/safe.jpg": "/static/media/safe.91f18db02322cf1659da.jpg",
+    "static/media/car-locked.jpg": "/static/media/car-locked.d767c110db2debd1146c.jpg",
+    "static/media/key.jpg": "/static/media/key.03a58ef94e329283b7ac.jpg",
+    "static/media/repair.jpg": "/static/media/repair.c21985a3a514a43ce611.jpg",
+    "static/media/open-car.jpg": "/static/media/open-car.ff6ca59a3e07d5da031c.jpg",
+    "static/media/undraw_online_friends_re_eqaj.svg": "/static/media/undraw_online_friends_re_eqaj.29f817b97659b6c3788ceeb1dfd2d4f0.svg",
+    "static/media/ford.svg": "/static/media/ford.427d2ffa81bf336bb52ab54756a68dd8.svg",
+    "static/media/skoda.svg": "/static/media/skoda.7617b3e78c2f684b07c1b19f0e261dfd.svg",
+    "static/media/jeep.svg": "/static/media/jeep.864f2eb4a2de7a0fbe42850744acbabe.svg",
+    "static/media/honda.svg": "/static/media/honda.a089ac1f42b1f4d18e44f884726be709.svg",
+    "static/media/bmw.svg": "/static/media/bmw.e89ec8d2e3fe8144ba6d7a3fcff7859f.svg",
+    "static/media/hyundai.svg": "/static/media/hyundai.b627cd7bcf3249ef2af625083cbbe68e.svg",
+    "static/media/subaru.svg": "/static/media/subaru.5d1ca4261b99805a2e8b0657ac99409b.svg",
+    "index.html": "/index.html",
+    "main.2f3142e0.css.map": "/static/css/main.2f3142e0.css.map",
+    "main.942ba748.js.map": "/static/js/main.942ba748.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f3142e0.css",
+    "static/js/main.942ba748.js"
+  ]
+}
